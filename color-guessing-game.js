@@ -13,6 +13,7 @@ var reset_button = document.querySelector("#reset");
 var hard_button = document.getElementById("hard");
 var easy_button = document.getElementById("easy");
 
+
 // logic for clicking easy button
 easy_button.addEventListener("click", function () {
     // toggle colors of buttions
@@ -25,6 +26,7 @@ easy_button.addEventListener("click", function () {
 
     // update the header
     color_display.textContent = target_color;
+    h1.style.backgroundColor = "steelblue";
 
     // update display to show 3 colors
     for (var i = 0; i < squares.length; i++) {
@@ -48,6 +50,7 @@ hard_button.addEventListener("click", function () {
 
     // update the header
     color_display.textContent = target_color;
+    h1.style.backgroundColor = "steelblue";
 
     // update display to show 6 colors
     for (var i = 0; i < squares.length; i++) {
