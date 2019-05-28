@@ -9,10 +9,7 @@
     <link rel="stylesheet" type="text/css" href="color-guessing-game.css">
 </head>
 <body>
-    <h1>
-        <span id="color-display">RGB</span>
-        <br>
-        Guessing Game</h1>
+
 
     <div id="options">
         <button id="reset">New Colors</button>
